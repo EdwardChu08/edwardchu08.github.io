@@ -17,8 +17,16 @@ img.image {
 	background: #ecf0f1;
 }
 
+
+/*navbar items*/
+
 .navbar-inverse {
 	background: #2c3e50;
+}
+
+
+.navbar-inverse .navbar-brand {
+	color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -29,10 +37,10 @@ img.image {
     color: #c5cddb;
 }
 
-.navbar-inverse .navbar-brand {
-	color: white;
-}
-
 .navbar-inverse .navbar-nav>.active>a {
 	background: #212f3d;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #c5cddb;
 }
